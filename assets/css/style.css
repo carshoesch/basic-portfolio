@@ -832,6 +832,11 @@ section .container {
 	display: inline-block;
 	transition: 0.3s;
 }
+.portfolio .portfolio-wrap .portfolio-links .inactive {
+	pointer-events: none;
+	background: none;
+	opacity: .5;
+}
 .portfolio .portfolio-wrap .portfolio-links a:hover {
 	color: #63eda3;
 }
