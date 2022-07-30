@@ -1,15 +1,17 @@
-/**
-* Template Name: Personal - v4.7.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/*--------------------------------------------------------------
+# font-face
+--------------------------------------------------------------*/
+@font-face { font-family: Calibre; font-weight: 300; src: url('../fonts/calibre/CalibreLight.otf'); } 
+@font-face { font-family: Calibre Medium; font-weight: 400; src: url('../fonts/calibre/CalibreMedium.otf'); } 
+@font-face { font-family: Calibre Regular; font-weight: 600; src: url('../fonts/calibre/CalibreRegular.otf'); } 
+@font-face { font-family: Calibre Bold; font-weight: 700;; src: url('../fonts/calibre/CalibreBold.otf'); } 
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Calibre", sans-serif;
+	font-weight: 400;
 	background-color: #040404;
 	color: #fff;
 	position: relative;
@@ -73,7 +75,7 @@ h6 {
 	padding: 0;
 	line-height: 1;
 	font-weight: 700;
-	font-family: "Poppins", sans-serif;
+	font-family: "Fira Code", sans-serif;
 }
 #header h1 a,
 #header h1 a:hover {
@@ -141,6 +143,15 @@ h6 {
 	top: 0;
 	right: 0;
 	background: rgba(0, 0, 0, 0.9);
+}
+#header .header-counter {
+	display: none;
+}
+
+#header.header-top .header-counter {
+	display: inline-block;
+	color: #18d26e;
+	padding-right: 8px;
 }
 #header.header-top .social-links,
 #header.header-top h2 {
@@ -226,7 +237,7 @@ h6 {
 	align-items: center;
 	justify-content: space-between;
 	padding: 0;
-	font-family: "Poppins", sans-serif;
+	font-family: "Fira Code", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.7);
@@ -370,7 +381,7 @@ section .container {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #aaaaaa;
-	font-family: "Poppins", sans-serif;
+	font-family: "Fira Code", sans-serif;
 }
 .section-title h2::after {
 	content: "";
@@ -383,10 +394,10 @@ section .container {
 .section-title p {
 	margin: 0;
 	margin: -15px 0 15px 0;
-	font-size: 36px;
+	font-size: 32px;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-family: "Poppins", sans-serif;
+	font-family: "Fira Code", sans-serif;
 	color: #fff;
 }
 
@@ -473,7 +484,7 @@ section .container {
 	text-transform: uppercase;
 	display: block;
 	font-weight: 600;
-	font-family: "Poppins", sans-serif;
+	font-family: "Fira Code", sans-serif;
 	color: #fff;
 }
 .skills .progress .skill .val {
@@ -608,7 +619,7 @@ section .container {
 	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
-	font-family: "Poppins", sans-serif;
+	font-family: "Fira Code", sans-serif;
 	color: #18d26e;
 	margin-bottom: 10px;
 }
